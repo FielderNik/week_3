@@ -1,0 +1,92 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Gradle / Kotlin
+.gradle/
+**/build/
+**/.gradle/
+**/.kotlin/
+**/out/
+*.class
+
+# Keep Gradle wrapper files tracked, but ignore downloaded wrapper distributions.
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin/Native
+*.klib
+.konan/
+
+# Logs and runtime dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+hs_err_pid*
+replay_pid*
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+local.properties
+**/local.properties
+secrets/
+**/secrets/
+secret/
+**/secret/
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Web apps
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+coverage/
+**/coverage/
+playwright-report/
+**/playwright-report/
+test-results/
+**/test-results/
+*.tsbuildinfo
+
+# Tool caches and temp files
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Archives and generated artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Video files
+*.mov
+*.mp4
+*.m4v
+*.avi
+*.mkv
+*.webm
